@@ -13,20 +13,22 @@ body {
   background: url(./bg.webp) center/cover;
 }
 .app {
-  background: rgba(255, 255, 255, 0.32);
+  background: rgba(210, 211, 220, 0.319);
   margin: 0 10px;
   padding: 24px 10px 10px;
-  border-radius: 2px;
+  border-radius: 3px;
   width: 90%;
   max-width: 600px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
   /* box-shadow: 1px 1px 1px 1.5px #00000065; */
 }
 #password-output {
   background: transparent;
-  border: none;
   font-size: 1.5rem;
   width: 100%;
   color: #222;
+  text-transform: uppercase;
 }
 .range-container {
   margin: 20px 0;
@@ -39,7 +41,7 @@ input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
   width: 160px;
-  background-image: linear-gradient(to right, white 0%, #accbee 100%);
+  background-image: linear-gradient(to right, white 0%, #b8e7e5 100%);
 
   border-radius: 0px;
 }
@@ -91,28 +93,28 @@ input[type="checkbox"]:checked + label {
 }
 label {
   user-select: none;
-  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+  background-image: linear-gradient(to top, #b8e7e5 0%, #e7f0fd 100%);
   height: 60px;
   width: 60px;
   display: grid;
   justify-items: center;
   align-items: center;
-  border-radius: 3px;
+  border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.486);
   transition: 0.2s ease;
   cursor: pointer;
 }
 button {
   margin: 14px 0 20px;
-  background: white;
+  background: rgba(255, 255, 255, 0.8);
   padding: 10px 20px;
   transition: 0.2s;
   cursor: pointer;
   border: 0;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 button:hover {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.32);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.32);
   transform: translateX(3px);
 }
 button:active {
